@@ -39,6 +39,11 @@ class HomePage extends StatelessWidget {
           num: '1',
         )),
     ListItemsModel(
+        image: 'assets/8.jpg',
+        name: 'Best Friends',
+        message: 'Ali: في خروجة بكرة',
+        time: 'Yesterday'),
+    ListItemsModel(
         image: 'assets/3.jpg',
         name: 'Ali',
         message: 'في حجز كورة',
@@ -56,11 +61,6 @@ class HomePage extends StatelessWidget {
         greeenicon: Greenicon(
           num: '10',
         )),
-    ListItemsModel(
-        image: 'assets/8.jpg',
-        name: 'Best Friends',
-        message: 'في خروجة بكرة',
-        time: 'Yesterday'),
   ];
   HomePage({super.key});
 
