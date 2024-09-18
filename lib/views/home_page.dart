@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 import 'package:whatsapp/models/list_items_model.dart';
 import 'package:whatsapp/widgets/down_bar.dart';
@@ -7,26 +9,29 @@ import 'package:whatsapp/widgets/items.dart';
 class HomePage extends StatelessWidget {
   List<ListItemsModel> itemsmodels = [
     ListItemsModel(
-        image: 'assets/Screenshot 2024-09-10 043654.png',
+        image: 'assets/4.png',
         name: 'ME',
         message:
-            'https://www.google.com/search?client=firefox-b-d&sca_esv=8a135002f6381ed6&sca_upv=1&sxsrf=ADLYWILv16JkLj5b-6izX7VjRndr3sb6YQ:1726607112029&q=profile+picture&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2jo6Ttnu6iRjjgGjARfLolnBoLZZFBaghikH-Cd5D8-jDs501extcuvUVyoffiQ5rDquYr5BB7fR0vUbcc6HOfIRKuWHSQvCOjvp32EkHZihOwx56bjsiTSDWMF6Ho8RrtRGaZWI&sa=X&ved=2ahUKEwig5NDc8MqIAxWlV6QEHXccIlAQtKgLegQIDhAB&biw=1920&bih=993&dpr=1#imgrc=8lRc8BwjbJ_fGM&imgdii=jpCZyRFE07bUqM',
+            'https://www.google.com/search?client=firefox-b-d&sca_esv=8a135002f6381ed6&sca_upv=1&sxsrf=ADLYWILv16JkLj5b-6izX',
         time: '8:25 am'),
     ListItemsModel(
-        image: 'assets/Screenshot 2024-09-18 001646.png',
-        name: 'ADEl',
-        message: 'Hello pro',
-        unreaded: '12:30 am',
-        greeenicon: Greenicon(
-          num: '5',
-        )),
+      image: 'assets/5.png',
+      name: 'ADEl',
+      message: 'Hello pro',
+      unreaded: '12:30 am',
+      greeenicon: Greenicon(
+        num: '5',
+      ),
+    ),
     ListItemsModel(
-        image: 'assets/istockphoto-1386479313-612x612.jpg',
-        name: 'Marwa',
-        message: '..',
-        time: '6:45 pm'),
+        image: 'assets/9.jpg',
+        name: 'Flutter Project',
+        message: 'You: To Do App',
+        time: 'Yesterday'),
     ListItemsModel(
-        image: 'assets/images.jpg',
+        image: 'assets/1.jpg', name: 'Maro', message: '..', time: '6:45 pm'),
+    ListItemsModel(
+        image: 'assets/2.jpg',
         name: 'محمود',
         message: 'Hello pro',
         unreaded: '12:30 pm',
@@ -34,17 +39,17 @@ class HomePage extends StatelessWidget {
           num: '1',
         )),
     ListItemsModel(
-        image: 'assets/aa.jpg',
+        image: 'assets/3.jpg',
         name: 'Ali',
         message: 'في حجز كورة',
         time: '2:05'),
     ListItemsModel(
-        image: 'assets/ششش.jpg',
+        image: 'assets/6.jpg',
         name: 'apo 3bdla',
         message: 'الاييييييجار',
         time: '1:52'),
     ListItemsModel(
-        image: 'assets/ab.jpg',
+        image: 'assets/7.jpg',
         name: 'ahmed salah',
         message: 'يعااااااااااام مترد',
         unreaded: '12:37 pm',
@@ -52,14 +57,9 @@ class HomePage extends StatelessWidget {
           num: '10',
         )),
     ListItemsModel(
-        image: 'assets/aaaa.jpg',
-        name: 'Nada',
-        message: 'Hello',
-        time: 'Yesterday'),
-    ListItemsModel(
-        image: 'assets/images.jpg',
-        name: 'MOHAMED 3adel',
-        message: 'عامل اي',
+        image: 'assets/8.jpg',
+        name: 'Best Friends',
+        message: 'في خروجة بكرة',
         time: 'Yesterday'),
   ];
   HomePage({super.key});
